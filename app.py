@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
 
-
+#functiosn for calculating ecah operatiosn perfromed in the calculator
 def calculate(num1, num2, operation):
     if operation == "add":
         return num1 + num2
